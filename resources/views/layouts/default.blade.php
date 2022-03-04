@@ -18,9 +18,7 @@
  {{-- @include("partials.navbar")--}}
   @include("partials.headerBox")
   
-  @include("partials.jumbotronBox")
-  
-  @include("partials.immaginiBox")
+
   {{-- Footer uguale per tutte le pagine --}}
   <div>
     @yield('content')
